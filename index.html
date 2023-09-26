@@ -4,15 +4,19 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hello World</title>
-    <link rel="stylesheet" href="wallpaper.css">
+    <title>Login</title>
     <style>
+        body {
+            background-color: rgb(49, 49, 49);
+        }
+
         video {
             object-fit: cover;
             position: fixed;
             top: 0;
             left: 0;
         }
+
 
         .overlay {
             position: fixed;
@@ -141,11 +145,12 @@
             <label class="save">
                 <input type="checkbox" checked="checked"> Remember me
             </label>
-            <span class="psw"><a href="#">Forgot password?</a></span>
+            <span class="psw"><a style="text-decoration:none;" href="#">Forgot password?</a></span>
             <br> <br>
             <button class="loginbutton" type="submit">Login</button>
             <br> <br>
-            <span class="psw">Don't have an Account? <a href="#">Register</a></span>
+            <span class="psw">Don't have an Account? <a style="text-decoration:none;"
+                    href="register.html">Register</a></span>
         </div>
     </div>
 </body>
