@@ -104,24 +104,13 @@
             margin-right: 200px;
         }
 
-        .userimg {
-            margin-left: 143px;
-            margin-top: -45px;
-            position: absolute;
-        }
 
-        .lockimg {
+
+        .img {
             margin-left: 316px;
             margin-top: 7.5px;
             position: absolute;
         }
-
-        .emailimg {
-            margin-left: 316px;
-            margin-top: 7.5px;
-            position: absolute;
-        }
-
         .title {
             font-size: xx-large;
         }
@@ -139,18 +128,17 @@
             <br>
             <div class="input-container">
                 <input class="input-field" type="text" id="benutzername" name="benutzername" required
-                    placeholder="Username">
+                    placeholder="Username"><img src="user.png" height="20px" class="img">
             </div>
-            <img src="user.png" height="20px" class="userimg">
             <br>
             <div class="input-container">
                 <input class="input-field" type="email" id="email" name="Email" required placeholder="Email"><img
-                    src="email.png" height="20px" class="emailimg">
+                    src="email.png" height="20px" class="img">
             </div>
             <br>
             <div class="input-container">
                 <input class="input-field" type="password" id="passwort" name="passwort" required
-                    placeholder="Password"><img src="lock.png" height="20px" class="lockimg">
+                    placeholder="Password"><img src="lock.png" height="20px" class="img">
             </div>
             <label class="save">
                 <input type="checkbox" checked="checked"> Remember me

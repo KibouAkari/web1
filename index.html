@@ -27,7 +27,6 @@
             display: flex;
             justify-content: center;
             align-items: center;
-            z-index: 1;
         }
 
         .form-container {
@@ -101,13 +100,9 @@
             color: rgb(255, 255, 255);
         }
 
-        .userimg {
-            margin-left: 143px;
-            margin-top: -45px;
-            position: absolute;
-        }
 
-        .lockimg {
+
+        .img {
             margin-left: 316px;
             margin-top: 7.5px;
             position: absolute;
@@ -134,18 +129,17 @@
             <br>
             <div class="input-container">
                 <input class="input-field" type="text" id="benutzername" name="benutzername" required
-                    placeholder="Username">
+                    placeholder="Username"><img src="user.png" height="20px" class="img">
             </div>
-            <img src="user.png" height="20px" class="userimg">
             <br>
             <div class="input-container">
                 <input class="input-field" type="password" id="passwort" name="passwort" required
-                    placeholder="Password"><img src="lock.png" height="20px" class="lockimg">
+                    placeholder="Password"><img src="lock.png" height="20px" class="img">
             </div>
             <label class="save">
                 <input type="checkbox" checked="checked"> Remember me
             </label>
-            <span class="psw"><a style="text-decoration:none;" href="main.html">Forgot password?</a></span>
+            <span class="psw"><a style="text-decoration:none;" href="Home.html">Forgot password?</a></span>
             <br> <br>
             <button class="loginbutton" type="submit">Login</button>
             <br> <br>
