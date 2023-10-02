@@ -7,21 +7,22 @@
     <title>Home</title>
     <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="app.js"></script>
 
     <style>
         body {
-            background-color: rgb(0, 0, 0);
+            overflow-x: hidden;
         }
 
         .title {
             color: #00ffff50;
             z-index: 2;
             font-size: 1500%;
-            font-family:arial black ;
+            font-family: arial black;
             text-align: center;
             font-weight: 400 bolder;
-            margin-top: 250px;
+            margin-top: auto;
 
         }
 
@@ -35,9 +36,9 @@
 
         nav {
             position: fixed;
-            left: 0;
-            right: 0;
-            bottom: 5%;
+            left: 70%;
+            right: 0%;
+            bottom: 0;
             width: 100%;
             padding: 24px;
             max-width: 500px;
@@ -107,12 +108,7 @@
 </head>
 
 <body>
-
     <h1 class="title">Hello World</h1>
-
-    <video id="background-video" playsinline autoplay muted loop>
-        <source src="moonlit-night-omi-village-ghost-of-tsushima-HD-live.mp4" type="video/mp4">
-    </video>
     <nav>
         <div class="navbar">
             <ul class="container">
@@ -169,6 +165,31 @@
             })
         })
     </script>
+
+
+    <section>
+
+        <video id="background-video" playsinline autoplay muted loop>
+            <source src="moonlit-night-omi-village-ghost-of-tsushima-HD-live.mp4" type="video/mp4">
+        </video>
+
+    </section>
+
+    <section class="hidden">
+        <h1 class="reveal-type">test</h1>
+    </section>
+
+    <section class="hidden">
+        <p class="reveal-type">thats just a test</p>
+    </section>
+
+    <section class="hidden">
+        <p class="reveal-type">does it work?</p>
+    </section>
+
+    <section class="hidden">
+        <h2>Hi!</h2>
+    </section>
 
 
 </body>

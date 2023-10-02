@@ -1,0 +1,34 @@
+video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+
+section {
+    height: 100vh;
+    padding: 0 clamp(4rem, 12vw, 20rem);
+    display: grid;
+    overflow: hidden;
+    place-content: center;
+
+
+}
+
+.hidden {
+    opacity: 0;
+    transition: all 4s;
+}
+
+
+.show {
+    opacity: 3;
+
+}
+
+@media(prefers-reduced-motion) {
+    .hidden {
+        transition: none;
+    }
+}
