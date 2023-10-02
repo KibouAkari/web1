@@ -18,13 +18,16 @@ section {
 
 .hidden {
     opacity: 0;
-    transition: all 4s;
+    filter: blur(5px);
+    transform: translateX(-100%);
+    transition: all 2s;
 }
 
 
 .show {
     opacity: 3;
-
+    filter: blur(0);
+    transform: translateX(0);
 }
 
 @media(prefers-reduced-motion) {
