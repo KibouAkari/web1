@@ -35,3 +35,18 @@ section {
         transition: none;
     }
 }
+
+.first {
+    background-color: rgb(29, 29, 29);
+    color: white;
+    margin-top: -10.2%;
+}
+
+.second {
+    background-color: purple;
+}
+
+.third {
+    background-color: black;
+    color: white;
+}
